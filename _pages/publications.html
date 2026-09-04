@@ -1,19 +1,34 @@
 ---
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-## Journal Papers
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-- **Pengcheng Dai**, Yuanqiu Mo, Wenwu Yu, and Wei Ren, "Distributed neural policy gradient algorithm for global convergence of networked multi-agent reinforcement learning," *IEEE Transactions on Automatic Control*, vol. 70, no. 11, pp. 7109-7124, Nov. 2025.
+{% include base_path %}
 
-- **Pengcheng Dai**, He Wang, Huazhou Hou, Xusheng Qian, and Wenwu Yu, "Joint spectrum and power allocation in wireless network: a two-stage multi-agent reinforcement learning method," *IEEE Transactions on Emerging Topics in Computational Intelligence*, vol. 8, no. 3, pp. 2364-2374, Jun. 2024.
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
 
-- **Pengcheng Dai**, Wenwu Yu, He Wang, and Jiahui Jiang, "Applications in traffic signal control: a distributed policy gradient decomposition algorithm," *IEEE Transactions on Industrial Informatics*, vol. 20, no. 2, pp. 2762-2775, Feb. 2024.
-
-## Conference Papers
-
-
-
-## Preprints
