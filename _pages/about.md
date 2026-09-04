@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Fellow at the [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg/), Singapore. I received my Ph.D. degree from the School of Mathematics, Southeast University, China, in 2023, advised by Prof. Wenwu Yu.
+I am a Research Fellow at the Singapore University of Technology and Design, Singapore. I received my Ph.D. degree from the School of Mathematics, Southeast University, China, in 2023, advised by Prof. Wenwu Yu.
 
 My research interests include reinforcement learning, distributed optimization and control, and multi-agent systems.
 
