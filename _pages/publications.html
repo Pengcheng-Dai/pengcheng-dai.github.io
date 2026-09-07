@@ -18,7 +18,7 @@ author_profile: true
       {% endunless %}
       <p>
         <a href="{{ post.paperurl | default: post.permalink }}"><strong>{{ post.title }}</strong></a><br>
-        {{ post.authors }}<br>
+        {{ post.authors | replace: "Pengcheng Dai", "<strong>Pengcheng Dai</strong>" }}<br>
         <i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
       </p>
     {% endfor %}
