@@ -1,5 +1,5 @@
 ---
-title: "Scalable Policy Optimization for Networked Multi-Agent Reinforcement Learning with Continuous State-Action Spaces"
+title: "Scalable policy optimization for networked multi-agent reinforcement learning with continuous state-action spaces"
 collection: publications
 category: preprints
 permalink: /publication/2026-07-20-scalable-coupled-policy
