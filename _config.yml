@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Pengcheng Dai"
   pronouns         : # example: "she/her"  
-  bio              : "Research Fellow at SUTD, working on reinforcement learning and multi-agent systems."
+  bio              : "Working on reinforcement learning and multi-agent systems."
   location         : "Singapore"
-  employer         : "Singapore University of Technology and Design"
+  employer         : ""
   uri              : # URL
   email            : "Jldaipc@163.com" 
 
