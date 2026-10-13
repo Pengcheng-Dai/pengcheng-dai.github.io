@@ -9,12 +9,9 @@ redirect_from:
 ---
 
 
-I received my Ph.D. degree from the School of Mathematics, Southeast University, China, in 2023, advised by Prof. Wenwu Yu.
+Pengcheng Dai received the Ph.D. degrees in mathematics from Southeast University, Nanjing, China, in 2023, under the supervision of Prof. Wenwu Yu.
 
-My research interests include reinforcement learning, distributed optimization and control, and multi-agent systems.
+He is currently a Research Fellow with the [Nanyang Technological University](https://www.ntu.edu.sg/), Singapore. From 2024 to 2026, he was a Research Fellow with the [Singapore University of Technology and Design](https://www.sutd.edu.sg/), Singapore. His research interests include reinforcement learning, distributed optimization and control, and multi-agent systems.
 
-## Education
-- Ph.D., Southeast University, 2019–2023, School of Mathematics, advised by Prof. Wenwu Yu
-- M.S., Southeast University, 2016–2019, School of Mathematics, advised by Prof. Wenwu Yu
-- B.S., Yancheng Normal University, 2012–2016, School of Mathematics and Statistics
+
 
