@@ -23,7 +23,7 @@ repository               : "Pengcheng-Dai/Pengcheng-Dai.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "PengchengDai.jpg"
   name             : "Pengcheng Dai"
   pronouns         : # example: "she/her"  
   bio              : "Research Fellow at NTU, working on reinforcement learning and multi-agent systems"
