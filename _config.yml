@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Pengcheng Dai"
   pronouns         : # example: "she/her"  
-  bio              : "Working on reinforcement learning and multi-agent systems."
+  bio              : "Research Fellow at NTU, working on reinforcement learning and multi-agent systems"
   location         : "Singapore"
-  employer         : "Singapore University of Technology and Design"
+  employer         : "Nanyang Technological University"
   uri              : # URL
-  email            : "Jldaipc@163.com" 
+  email            : "pengcheng.dai@ntu.edu.sg" 
 
   # Academic websites
   academia         : # URL
